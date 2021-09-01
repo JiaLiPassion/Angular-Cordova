@@ -15,17 +15,21 @@
   "devDependencies": {
     "cordova-android": "^9.1.0",
     "cordova-browser": "^6.0.0",
+    "cordova-electron": "^1.1.1",
     "cordova-plugin-inappbrowser": "^5.0.0",
-    "cordova-plugin-whitelist": "^1.3.4"
+    "cordova-plugin-whitelist": "^1.3.4",
+    "cordova-sqlite-storage": "^6.0.0"
   },
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},
-      "cordova-plugin-inappbrowser": {}
+      "cordova-plugin-inappbrowser": {},
+      "cordova-sqlite-storage": {}
     },
     "platforms": [
       "android",
-      "browser"
+      "browser",
+      "electron"
     ]
   }
 }

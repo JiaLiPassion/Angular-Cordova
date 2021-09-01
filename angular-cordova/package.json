@@ -21,6 +21,9 @@
     "@angular/router": "~11.1.0",
     "@types/cordova": "0.0.34",
     "cordova-plugin-inappbrowser": "^5.0.0",
+    "cordova-sqlite-storage": "^6.0.0",
+    "localforage": "^1.10.0",
+    "localforage-cordovasqlitedriver": "^1.8.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"

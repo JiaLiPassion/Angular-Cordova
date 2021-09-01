@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Rucha\Cordova\angular-cordova\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! C:\Users\jiali\workspaces\Angular-Cordova\angular-cordova\src\polyfills.ts */"hN/g");
 
 
 /***/ }),

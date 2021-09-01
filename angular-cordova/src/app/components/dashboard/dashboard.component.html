@@ -1,2 +1,26 @@
-<p><a (click)="openInApp()">Open Link in InAppBrowser</a></p>
-<p><a (click)="openExternal()">Open Link in External Web Browser</a></p>
+<div style="display: block;">
+  <p>db1</p>
+  <button (click)="createDb('db1')">Create DB1</button>
+  <button (click)="dropDb('db1')">Drop DB1</button>
+  <button (click)="saveString('db1')">Save String</button>
+  <button (click)="getString('db1')">Get Cached String</button>
+  {{cachedString1}}
+  <input type="file" (change)="onFileChanged('db1', $event)">
+  <button (click)="getBlob('db1')">Get cached Blob</button>
+  <ng-container *ngIf="cachedImg1">
+    <img id="myimage" [src]='cachedImg1' />
+  </ng-container>
+</div>
+<div>
+  <p>db2</p>
+  <button (click)="createDb('db2')">Create DB2</button>
+  <button (click)="dropDb('db2')">Drop DB2</button>
+  <button (click)="saveString('db2')">Save String</button>
+  <button (click)="getString('db2')">Get Cached String</button>
+  {{cachedString2}}
+  <input type="file" (change)="onFileChanged('db2', $event)">
+  <button (click)="getBlob('db2')">Get cached Blob</button>
+  <ng-container *ngIf="cachedImg2">
+    <img id="myimage" [src]='cachedImg2' />
+  </ng-container>
+</div>
